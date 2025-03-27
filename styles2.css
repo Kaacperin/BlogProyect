@@ -1,0 +1,40 @@
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+.back {
+    display: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background-color: #005fa3;
+}
+
